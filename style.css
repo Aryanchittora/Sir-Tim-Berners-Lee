@@ -1,0 +1,81 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+
+#welcome {
+    display: table;
+    background: linear-gradient(#07f7bf 0%, #307ab3 100%);
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    height: 800px;
+    color: azure;
+    opacity: 0.80;
+    width: 100%;
+    z-index: 9;
+}
+
+.pic {
+    border-radius: 50%;
+    width: 175px;
+    margin-top:50px;
+}
+
+#biograph {
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+
+.line {
+    border-width:5px;
+    border-style:solid;
+    border-color: black;
+    width:20px;
+    margin:10px auto;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: cursive;
+}
+
+#name {
+    font-size: 25px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight:bold;
+}
+
+p {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.list {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.links {
+    color: white;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 20px;
+    font-family: 'Bangers', cursive;
+}
+
+.links:hover {
+    background-color:cyan;
+}
